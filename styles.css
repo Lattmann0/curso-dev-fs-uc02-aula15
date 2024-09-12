@@ -27,7 +27,7 @@ dd {
 
 body {
   font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
-  width: 1000px;
+  width: 65vw;
   height: auto;
   max-width: 1000px;
   background: coral;
@@ -96,4 +96,22 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.margens-titulos { 
+  margin: 15px 0; 
+}
+
+#preparo ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-bottom: 10px;
+
+  &:last-child{
+    margin: 0;
+  }
+
+  &::marker {
+    font-weight: 800;
+  }
 }
